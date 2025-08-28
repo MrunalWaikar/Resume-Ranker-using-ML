@@ -25,5 +25,23 @@ An AI-driven system that **automatically parses, analyzes, and ranks resumes** a
 - Matplotlib – Visualization  
 
 ---
+## 📂 Project Structure
 
+resume-ranker/
+│── app.py # Main Streamlit app
+│── requirements.txt # Dependencies
+│
+├── parser/
+│ └── parser.py # PDF text extraction
+│
+├── utils/
+│ ├── ranker.py # Embedding + ranking functions
+│ └── visualization.py # Bar chart plotting
+│
+├── data/
+│ ├── resumes/ # Sample resumes (PDF)
+│ └── job_description.txt # Sample job description
+│
+└── results/
+└── output.json # Ranked results (optional)
 
