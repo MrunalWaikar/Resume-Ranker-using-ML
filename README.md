@@ -26,5 +26,4 @@ An AI-driven system that **automatically parses, analyzes, and ranks resumes** a
 
 ---
 
-## 📂 Project Structure
 
